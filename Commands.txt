@@ -7,8 +7,8 @@ pip install easydict
 
 # to run the detect_sort.py file and learn weights and applying on a pedestrian.mp4 file
 
-python detect_sort.py --weights yolov5s.pt  --img 640  --source pedestrian.mp4
-
+python detect_sort.py --weights yolov5s.pt  --img 640  --source pedestrian.mp4  
+# apply on a live caera
 python detect_sort.py --weights yolov5s.pt  --img 640  --source 0
 
 
